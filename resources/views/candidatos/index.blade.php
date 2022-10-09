@@ -31,8 +31,9 @@
                                         </p>
                                     </div>
                                     <div>
-                                        <a href="" class="inline-flex items-center shadow-sm px-2.5 py-0.5 border border-gray-300 text-sm
-                                        leading-5 font-medium rounded-full text-gray-700 bg-white hover:bg-gray-50">
+                                        <a href="{{asset('storage/cv/'.$candidato->cv)}}" class="inline-flex items-center shadow-sm px-2.5 py-0.5 border border-gray-300 text-sm
+                                        leading-5 font-medium rounded-full text-gray-700 bg-white hover:bg-gray-50"
+                                        target="blank" rel="noreferrer noopener">
                                             Ver CV
                                         </a>
                                     </div>
